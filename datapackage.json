@@ -1,0 +1,46 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "sig-teste-2021-09",
+      "path": "data/sig-teste-2021-09.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Teste SIG",
+      "description": "arquivo teste de setembro",
+      "format": "csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "sig-teste-2021-10",
+      "path": "data/sig-teste-2021-10.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Teste SIG",
+      "format": "csv",
+      "encoding": "utf-8",
+      "description": "Arquivo de teste de outubro"
+    }
+  ],
+  "keywords": [
+    "indicadores hospitalares",
+    "gestão hospitalar"
+  ],
+  "name": "sig-teste",
+  "title": "Teste SIG",
+  "description": "dataset de teste",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "version": "0.0.9",
+  "contributors": [
+    {
+      "title": "André Amorim",
+      "role": "author"
+    }
+  ]
+}

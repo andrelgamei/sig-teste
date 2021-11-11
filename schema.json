@@ -1,0 +1,122 @@
+{
+        "fields": [
+          {
+            "name": "hospital",
+            "type": "string",
+            "format": "default",
+            "title": "Hospital",
+            "description": "Sigla da unidade"
+          },
+          {
+            "name": "pacientes-dia",
+            "type": "number",
+            "format": "default",
+            "title": "Pacientes-Dia",
+            "description": "contagem numérica",
+            "groupChar": "."
+          },
+          {
+            "name": "saidas",
+            "type": "number",
+            "format": "default",
+            "title": "Saídas Hospitalares",
+            "description": "contagem numérica",
+            "groupChar": "."
+          },
+          {
+            "name": "obitos-hospitalares",
+            "type": "integer",
+            "format": "default",
+            "title": "Óbitos Hospitalares",
+            "description": "contagem numérica"
+          },
+          {
+            "name": "obitos-institucionais",
+            "type": "integer",
+            "format": "default",
+            "title": "Óbitos Institucionais",
+            "description": "contagem numérica"
+          },
+          {
+            "name": "leitos-dia",
+            "type": "number",
+            "format": "default",
+            "title": "Leitos-dia",
+            "description": "contagem numérica",
+            "groupChar": "."
+          },
+          {
+            "name": "internacoes",
+            "type": "number",
+            "format": "default",
+            "title": "Internações",
+            "description": "contagem numérica",
+            "groupChar": "."
+          },
+          {
+            "name": "consultas-eletivas",
+            "type": "number",
+            "format": "default",
+            "title": "Consultas eletivas",
+            "description": "contagem numérica",
+            "groupChar": "."
+          },
+          {
+            "name": "consultas-urgencia",
+            "type": "number",
+            "format": "default",
+            "description": "contagem numérica",
+            "title": "Consultas de urgência",
+            "groupChar": "."
+          },
+          {
+            "name": "permanencia",
+            "type": "number",
+            "format": "default",
+            "title": "Média de permanência",
+            "description": "Média de permanência, em dias",
+            "decimalChar": ","
+          },
+          {
+            "name": "ocupacao",
+            "type": "number",
+            "format": "default",
+            "title": "Taxa de ocupação",
+            "description": "Taxa de ocupação, em %",
+            "decimalChar": ","
+          },
+          {
+            "name": "mortalidade-hospit-geral",
+            "type": "number",
+            "format": "default",
+            "title": "taxa de mortalidade hospitalar geral",
+            "decimalChar": ","
+          },
+          {
+            "name": "mortalidade-institucional",
+            "type": "number",
+            "format": "default",
+            "title": "taxa de mortalidade hospitalar institucional",
+            "decimalChar": ","
+          },
+          {
+            "name": "renovacao-leitos",
+            "type": "number",
+            "format": "default",
+            "title": "Índice de renovação de leitos",
+            "decimalChar": ","
+          },
+          {
+            "name": "mes",
+            "type": "integer",
+            "format": "default",
+            "title": "mês"
+          },
+          {
+            "name": "ano",
+            "type": "integer",
+            "format": "default",
+            "title": "ano"
+          }
+        ]
+      }
